@@ -1,0 +1,52 @@
+body {
+    background-color:aquamarine;
+    margin: 2rem;
+}
+
+img {
+    width: 16rem;
+    height: 16rem;
+    border-radius:50%;
+    border: solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1, h2 {
+font-family: 'Courier New', Courier, monospace;
+margin-bottom: 2rem;
+margin-left: 0.5rem;
+}
+
+ul {
+    font-size: 80%;
+    margin-top: 2rem;
+    
+}
+
+li {
+    color:blue
+}
+
+ol {
+    padding: 1rem;
+}
+
+p {
+text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+
+};
+    
